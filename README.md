@@ -1,33 +1,61 @@
 # Yosemite
 
-A theme for [Loam](https://github.com/loamhq/loam), drawn from granite walls, meadow grasses and national park signage.
+<!-- loam:hero -->
+**Granite walls, meadow grasses and big sky, with the friendly lettering of a park sign.**
+<!-- /loam:hero -->
 
-Yosemite dresses all of Loam in its own colours, in light and in dark, with
-Zilla Slab for its headings.
+A theme for [Loam](https://github.com/loamhq/loam). Yosemite is drawn from granite walls, meadow grasses and national park signage. By day it is high sky over pale granite; by night, a clear dark sky with spray off the falls.
 
-## Choices
+<!-- loam:gallery -->
+![Loam wearing Yosemite, in light](assets/preview-light.webp)
 
-In Settings › Appearance, once Yosemite is on:
+![Loam wearing Yosemite, in dark](assets/preview-dark.webp)
+<!-- /loam:gallery -->
 
-- **Agent faces**: Signature, Each its own, Circle (the default), Rounded square
-- **Inside**: Mark (the default), Initials
+## What changes
 
-## What it touches
+- **Every colour, in light and in dark.** Pages, cards, buttons and text,
+  each tuned for both, with text kept easy to read. It follows your light and
+  dark setting, sunrise and sunset included.
+- **Headings in Zilla Slab**, the theme's own display face.
+- **Agent faces your way.** Signature faces drawn for this theme (granite walls),
+  each agent its own shape, circles, or rounded squares; with a mark or the
+  agent's initials inside a Signature face.
+- **Its palette:** High sky, Granite haze, Granite shadow, Meadow, Mountain lake, Dry grass by day; Night sky, Dusk granite, Snowmelt, Spring meadow, Falls spray, Pine floor by night.
 
-Nothing but how Loam looks. It talks to no one on the network, reads no
-thread or memory, and runs no program on your server.
+## Safe to try
+
+In the Market, **Try it first** dresses your Loam in Yosemite and changes
+nothing until you press **Use**. A theme is colours, a font and pictures: it
+cannot run code, reach the internet or read your conversations.
 
 ## Getting it
 
-In your Loam, open Settings › Market, find Yosemite, press **Get**, then
-**Use**. Or install it from Settings › Plugins with its link:
+In your Loam, open **Settings › Market**, find Yosemite, and press **Get**
+(or **Try it first**). Then choose it in **Settings › Appearance**, where its
+options are too.
 
-```
-https://github.com/michaelhejazi/loam-yosemite/tree/v1.0.2
-```
+---
+
+## Technical details
+
+- **What it touches:** nothing but how Loam looks. Its `PLUGIN.md` declares no
+  network host, no conversation records, no memory and no server code.
+- **What is in it:** `theme.css` (token values only, light and dark, which
+  Loam checks before wearing it), `fonts.css` and the Zilla Slab font files,
+  its covers, and `assets/`, the two pictures above.
+- **Options:** `agent-shapes` (signature, distinct, circle, rounded-square)
+  and `face-content` (mark, initials); the defaults are in `PLUGIN.md`.
+- **The palette** in `PLUGIN.md` names six of its tokens for the Market's
+  preview; the colours themselves are only in `theme.css`.
+- **Install from a link** in Settings › Plugins:
+
+  ```
+  https://github.com/michaelhejazi/loam-yosemite/tree/v1.0.3
+  ```
 
 ## Made by
 
-Michael Hejazi. The theme is under the AGPL-3.0 ([LICENSE](LICENSE)), as Loam is;
-its display font, Zilla Slab, is under the SIL Open Font License
+Michael Hejazi. The theme is under the AGPL-3.0 ([LICENSE](LICENSE)), as
+Loam is; its display font, Zilla Slab, is under the SIL Open Font License
 ([OFL.txt](OFL.txt)).
