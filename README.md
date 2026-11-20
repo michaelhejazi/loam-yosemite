@@ -51,8 +51,17 @@ options are too.
 - **Install from a link** in Settings › Plugins:
 
   ```
-  https://github.com/michaelhejazi/loam-yosemite/tree/v1.0.3
+  https://github.com/michaelhejazi/loam-yosemite/tree/v1.0.4
   ```
+
+## Changes
+
+- **1.0.4:** this list of changes, and the install link names its own version.
+- **1.0.3:** a page that explains it plainly, with pictures of it at work.
+- **1.0.2:** its own repository, with its maker's name and the licence.
+- **1.0.0–1.0.1:** first released as part of Loam's Market.
+
+None of these changed what it touches.
 
 ## Made by
 
